@@ -12,8 +12,11 @@ Prepare a two-qubit quantum state from arbitrary complex amplitudes using only b
 3. Construct controlled single-qubit unitaries to prepare the conditional second-qubit states.
 4. Verify that the resulting state equals the target state.
 
-## File
-- `state_preparation.ipynb`: Jupyter notebook with full explanation and code.
+## Files
+- `complex_amplitudes.ipynb`: Jupyter notebook with full explanation and code.
+
+## Requirement
+- numpy>=1.21
 
 ## Stretch Goal
 Generalize this method to three-qubit states by extending the block decomposition and recursive structure.
